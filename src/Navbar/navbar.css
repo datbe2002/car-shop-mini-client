@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #666666;
+    --hover-color: #000000
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eeeeee;
+    
+}
+
+.navbar > * {
+    color: var(--primary-color);
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    font-size: 20px;
+}
+
+.navbar > *:hover {
+    color: var(--hover-color);
+}
