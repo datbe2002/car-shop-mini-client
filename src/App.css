@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 *,
 *::before,
@@ -14,16 +14,16 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  padding:1rem 2rem 1rem 2rem;
-  font-size:1.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.15rem;
-  font-family: 'Roboto', sans-serif, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   font-weight: 400;
 }
 
-.page-container{
-  display:flex;
-  justify-content:center;
+.page-container {
+  display: flex;
+  justify-content: center;
   width: auto;
   min-height: 100vh;
 }
